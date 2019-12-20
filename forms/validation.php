@@ -6,8 +6,8 @@
             $_SESSION['error'] = "Please insert a username.";
         } else if (strlen($username) > 25) {
             $_SESSION['error'] = "Maximum length for a username is 25.";
-        } else if (strlen($username) < 8) {
-            $_SESSION['error'] = "Minimum length for a username is 8.";
+        } else if (strlen($username) < 4) {
+            $_SESSION['error'] = "Minimum length for a username is 4.";
         } else if (!ctype_alnum($username)) {
             $_SESSION['error'] = "Username may only contain alphabetic and numerical characters.";
         }

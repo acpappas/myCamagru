@@ -1,11 +1,11 @@
 <?php
 
     session_start();
-
+    ini_set("display_errors", 1);
     $email = $_POST['email'];
     $text = $_POST['text'];
 
-    $to = 'madimgz@mailinator.com';
+    $to = "madimgz@mailinator.com";
     $subject = 'Madimgz - Contact Us';
     $message = $email.' has contacted us about the following: '.$text;
     $headers = 'From: '.$email;

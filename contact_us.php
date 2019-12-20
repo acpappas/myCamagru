@@ -26,7 +26,7 @@ include "templates/header.php";
 				<section class="section">
 					<div class="container">
 						<h2 class="title has-text-centered">Contact Madimgz</h2>
-						<subtitle class="subtitle center">Let us know if you have any suggestions, comments or feeback to give</subtitle>
+						<h3 class="subtitle center">Let us know if you have any suggestions, comments or feeback to give </h3>
 						<div class="columns">
 							<div class="column is-6">
 								<img class="center" src="./imgs/logo_sq.png" style="max-height:400px;" alt="">
